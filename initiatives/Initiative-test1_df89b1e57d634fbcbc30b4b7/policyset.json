@@ -2,6 +2,7 @@
  "properties": {
   "displayName": "Initiative-test1",
   "policyType": "Custom",
+  "description": "",
   "metadata": {
    "parameterScopes": {
     "listOfAllowedSKUs : Allowed virtual machine size SKUs_1": "/subscriptions/986a0fee-804e-4929-9385-6face18c8b29",
@@ -9,8 +10,8 @@
    },
    "createdBy": "17d7c0d1-df37-4154-91be-a94b0da93c6e",
    "createdOn": "2022-12-12T05:13:23.120311Z",
-   "updatedBy": null,
-   "updatedOn": null
+   "updatedBy": "17d7c0d1-df37-4154-91be-a94b0da93c6e",
+   "updatedOn": "2022-12-12T05:32:32.8231145Z"
   },
   "parameters": {},
   "policyDefinitions": [
@@ -20,7 +21,8 @@
     "parameters": {
      "listOfAllowedSKUs": {
       "value": [
-       "standard_b2ms"
+       "standard_b2ms",
+       "standard_b2s"
       ]
      }
     },
