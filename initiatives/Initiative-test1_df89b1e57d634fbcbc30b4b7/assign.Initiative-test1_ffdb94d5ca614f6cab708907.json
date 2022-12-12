@@ -1,0 +1,25 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Initiative-test1",
+  "policyDefinitionId": "/subscriptions/986a0fee-804e-4929-9385-6face18c8b29/providers/Microsoft.Authorization/policySetDefinitions/df89b1e57d634fbcbc30b4b7",
+  "scope": "/subscriptions/986a0fee-804e-4929-9385-6face18c8b29/resourceGroups/disk-backup",
+  "notScopes": [],
+  "parameters": {},
+  "description": "This will allow only specific SKUs for VMs and Storage Accounts",
+  "metadata": {
+   "parameterScopes": {},
+   "createdBy": "17d7c0d1-df37-4154-91be-a94b0da93c6e",
+   "createdOn": "2022-12-12T05:16:18.9795699Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/986a0fee-804e-4929-9385-6face18c8b29/resourceGroups/disk-backup/providers/Microsoft.Authorization/policyAssignments/ffdb94d5ca614f6cab708907",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "ffdb94d5ca614f6cab708907"
+}
