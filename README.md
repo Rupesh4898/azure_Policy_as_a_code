@@ -1,1 +1,1 @@
-# azure_Policy_as_a_code
+# azure_policy_as_a_code
